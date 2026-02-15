@@ -1,9 +1,0 @@
-{
-  "datasets": [
-    {
-      "id": "oesophagus_resection_rcpath_v3_microscopy",
-      "title": "Oesophagus resection carcinoma (RCPath v3 Appendix G \u2013 microscopy only)",
-      "path": "datasets/oesophagus_resection_rcpath_v3_microscopy"
-    }
-  ]
-}
