@@ -1,9 +1,0 @@
-[build]
-  publish = "."
-  functions = "netlify/functions"
-
-[functions]
-  node_bundler = "esbuild"
-
-# Optional: allow calling functions from your own site only (same-origin)
-# Netlify already serves functions on the same origin as the site.
