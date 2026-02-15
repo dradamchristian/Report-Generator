@@ -1,0 +1,32 @@
+DIAGNOSIS:
+Oesophageal resection: {{tumour_type}}{{#if tumour_type_other_specify}} ({{tumour_type_other_specify}}){{/if}}.
+
+MICROSCOPY:
+Tumour differentiation (predominant area): {{differentiation}}.
+Depth of invasion: {{pT}} ({{depth_of_invasion_category}}{{#if depth_of_invasion_phrase}}; {{depth_of_invasion_phrase}}{{/if}}).
+Serosal involvement: {{serosal_involvement}}.
+Lymphovascular space invasion: {{lvi}}.
+Perineural invasion: {{pni}}.
+History of neoadjuvant therapy: {{neoadjuvant_therapy_history}}.
+{{#if tumour_regression_grade}}Tumour regression grade ({{tumour_regression_system}}): {{tumour_regression_grade}}. {{mandard_descriptor}}{{/if}}
+
+MARGINS:
+Proximal margin: {{proximal_margin}}.
+Distal margin: {{distal_margin}}.
+Circumferential resection margin (CRM): {{circumferential_margin_status}}.
+Distance to nearest CRM: {{distance_to_crm_mm}} mm.
+
+LYMPH NODES:
+{{nodes_positive}} / {{nodes_examined}} involved.
+{{#if positive_node_stations}}Positive node station(s): {{positive_node_stations}}.{{/if}}
+
+METASTASIS:
+pM1 disease: {{pm1_disease}}.
+
+STAGING ({{tnm_edition}}):
+pT: {{pT}}
+pN: {{pN}}
+pM: {{pM}}
+
+SUMMARY:
+{{#if y_prefix}}y{{/if}}pT{{pT}} {{#if y_prefix}}y{{/if}}pN{{pN}} {{#if pM}}{{#if (eq pM "M1")}}pM1{{else}}pM0{{/if}}{{/if}} {{r_status}} ({{tnm_edition}}).
